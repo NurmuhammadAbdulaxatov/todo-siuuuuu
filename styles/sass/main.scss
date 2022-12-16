@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 40px;
+
+  input {
+    width: 75%;
+    padding: 0.6rem;
+    font-size: 23px;
+    background-color: black;
+    color: red;
+    border-radius: 14px;
+    box-shadow: 0 0 30px red;
+  }
+
+  button {
+    width: 15%;
+    padding: 0.6rem;
+    font-size: 23px;
+    color: red;
+    background-color: black;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 30px red;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  ul {
+    color: rgb(255, 0, 0);
+    list-style: none;
+    line-height: 50px;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+}
+
+.fisht {
+  width: 15%;
+  padding: 0.6rem;
+  font-size: 23px;
+  color: red;
+  background-color: black;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 0 30px red;
+  margin-top: 40px;
+  margin-left: 260px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
